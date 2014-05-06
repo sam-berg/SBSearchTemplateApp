@@ -1,0 +1,10 @@
+{
+  
+	"SBSearch": {
+		"placeholder":"Type here to enter search keywords...",
+		"featurelayer":"",
+		"labelfield":"",
+		"searchdefault":"Owner1 like '%Smith%'"
+  }
+
+}

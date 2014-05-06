@@ -1,0 +1,14 @@
+{
+  "name": "SBSEARCH",
+  "platform": "HTML",
+  "version": "",
+  "author": "",
+  "description": "",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": false,
+    "hasLocale": false,
+    "hasUIFile": false
+  }
+}

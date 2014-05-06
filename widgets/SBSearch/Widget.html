@@ -1,0 +1,22 @@
+<div>
+  <div id="SBSearchPanel" class="jimu-r-row" data-dojo-attach-point="tabSearch">
+ 
+     <input id="SBSearchPanelTextBox" data-dojo-attach-event="onkeyup:_onKeyUp" class="SBSearchTextBox" type="text" value="Owner1 like '%Smith%'" placeholder="Type here to enter search keywords..." data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="inputSearchName"
+             data-dojo-props="trim:true" />
+
+   <Button id="SBSearchCommand" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconCut', showLabel: false" data-dojo-attach-event="onclick:_doSBSearch" type="button" data-dojo-type="dijit/form/Button" >Search</Button>
+
+  </div>
+  
+  <div id="resultPanel" class="SBSearchResultPanel">
+
+	<div class="SBSearchResult-list" data-dojo-attach-point="SBSearchResultsListNode">
+		
+	</div>
+
+
+</div>
+
+
+
+</div>

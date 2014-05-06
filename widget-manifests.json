@@ -1,0 +1,55 @@
+{
+  "widgets/SBSearch/Widget": {
+    "name": "SBSEARCH",
+    "platform": "HTML",
+    "version": "",
+    "author": "",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": false,
+      "hasLocale": false,
+      "hasUIFile": false
+    }
+  },
+  "widgets/Scalebar/Widget": {
+    "name": "Scalebar",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": false,
+      "hasLocale": false,
+      "hasUIFile": false
+    }
+  },
+  "widgets/Coordinate/Widget": {
+    "name": "Coordinate",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "inPanel": false
+    }
+  },
+  "widgets/BasemapGallery/Widget": {
+    "name": "BasemapGallery",
+    "label": "Basemap Gallery",
+    "platform": "HTML",
+    "version": "",
+    "author": "Esri R&D Center Beijing",
+    "description": "",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+      "hasLocale": false
+    }
+  }
+}

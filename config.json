@@ -1,0 +1,119 @@
+{
+  "theme": {
+    "name": "SBSearchTheme",
+    "styles": [
+      "default",
+      "black"
+    ]
+  },
+  "portalUrl": "http://www.arcgis.com/",
+  "appId": "senJpIJA845L4FlP",
+  "title": "ArcGIS Web Application",
+  "subtitle": "with ArcGIS WebApp Builder",
+  "geometryService": {
+    "url": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer"
+  },
+  "logo": "images/app-logo.png",
+  "links": [
+    {
+      "label": "ArcGIS Online",
+      "url": "//www.arcgis.com"
+    }
+  ],
+  "preloadWidgets": {
+    "panel": {
+      "uri": "themes/SBSearchTheme/panels/SimpleBorderPanel/Panel",
+      "positionRelativeTo": "map"
+    },
+    "widgets": [
+      {
+        "label": "SBSearch",
+        "uri": "widgets/SBSearch/Widget",
+        "position": {
+          "right": 5,
+          "top": 5
+        },
+        "id": "widgets/SBSearch/Widget_1",
+        "positionRelativeTo": "map",
+        "name": "SBSearch"
+      },
+      {
+        "label": "Scalebar",
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 25,
+          "bottom": 25
+        },
+        "id": "widgets/Scalebar/Widget_2",
+        "positionRelativeTo": "map",
+        "name": "Scalebar"
+      },
+      {
+        "label": "Coordinate",
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 200,
+          "bottom": 10
+        },
+        "id": "widgets/Coordinate/Widget_3",
+        "positionRelativeTo": "map",
+        "name": "Coordinate"
+      },
+      {
+        "label": "Select a basemap",
+        "uri": "widgets/BasemapGallery/Widget",
+        "position": {
+          "left": 45,
+          "top": 5,
+          "width": 430,
+          "height": 410
+        },
+        "id": "widgets/BasemapGallery/Widget_4",
+        "positionRelativeTo": "map",
+        "name": "BasemapGallery"
+      },
+      {
+        "position": {
+          "left": 95,
+          "top": 5,
+          "width": 400,
+          "height": 410
+        },
+        "placeholderIndex": 1,
+        "id": "_5",
+        "positionRelativeTo": "map"
+      }
+    ]
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "6e03e8c26aad4b9c92a87c1063ddb0e3",
+    "id": "map"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "jimu/BaseWidgetPanel",
+      "positionRelativeTo": "map"
+    }
+  },
+  "geocodeService": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+  },
+  "routeService": {
+    "url": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World"
+  },
+  "printTask": {
+    "url": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"
+  },
+  "httpProxy": "/proxy.js",
+  "bingMapsKey": "",
+  "locale": "en-us",
+  "widgetManifestsMerged": true
+}
